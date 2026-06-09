@@ -1,0 +1,30 @@
+[project]
+name = "phishing-model"
+version = "0.1.0"
+description = "we create api based on model for detect phishing attacks"
+authors = [
+    {name = "issam adoch"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi (>=0.135.3,<0.136.0)",
+    "joblib (>=1.5.3,<2.0.0)",
+    "pandas (>=3.0.2,<4.0.0)",
+    "numpy (>=2.4.4,<3.0.0)",
+    "uvicorn (>=0.44.0,<0.45.0)",
+    "scikit-learn (>=1.8.0,<2.0.0)",
+    "optuna (>=4.8.0,<5.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "matplotlib (>=3.10.8,<4.0.0)",
+    "tldextract (>=5.3.1,<6.0.0)",
+    "sqlalchemy (>=2.0.49,<3.0.0)",
+    "asyncpg (>=0.31.0,<0.32.0)",
+    "psycopg2-binary (>=2.9.12,<3.0.0)",
+    "alembic (>=1.18.4,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

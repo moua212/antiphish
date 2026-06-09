@@ -1,0 +1,13 @@
+(phishing-model-py3.11) PS D:\projet_ML_pour cyber\work_space_phishing_url_project> git log --oneline
+f60b812 (HEAD -> main, origin/main) Add backend API and frontend
+45674a5 add readme
+1840d66 add readme
+95c0f0e add readme
+d24973c add readme
+b1f9d25 version 1 of model
+0d25fce version 1 of model
+22ba70b Initial commit
+--------------------------------------------
+choisi le commit que tu veux a retourne 
+--------------------------------------------
+git reset --hard 0d25fce 
